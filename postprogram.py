@@ -44,7 +44,7 @@ class PostProgram:
 
 
 def main():
-    # отправка писема
+    # отправка письма
     mail_server = PostProgram(GMAIL_SMTP, GMAIL_IMAP)
     message = MIMEMultipart()
     message['From'] = LOGIN
